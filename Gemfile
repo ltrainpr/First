@@ -8,13 +8,13 @@ group :development do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.0', :require => 'rspec-rails'
 #  gem 'annotate', '2.4.0'
-  gem 'faker', 0.3.1
+  gem 'faker', '0.3.1'
 #  gem 'test unit'
 end 
 
 group :test do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.13.0' :require => 'rspec-rails'
+  gem 'rspec-rails', '2.13.0', :require => 'rspec-rails'
 #  gem 'test unit'
   gem 'webrat', '0.7.1'
   gem 'factory_girl_rails', '1.0'
