@@ -1,4 +1,6 @@
 AAAWebsite::Application.routes.draw do
+  devise_for :members
+
   resources :events
 
   root :to => 'aaa_core#index'
